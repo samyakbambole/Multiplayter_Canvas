@@ -5,7 +5,7 @@ function setup() {
   	createCanvas(windowWidth, windowHeight); 
   	background(51); 
 
-  	socket = io.connect('http://localhost:3000'); 
+  	socket = io.connect('https://samyakbambole.github.io/Multiplayter_Canvas/'); 
   	socket.on('mouse', newDrawing); 
 }
 
